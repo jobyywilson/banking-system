@@ -1,0 +1,26 @@
+
+DROP TABLE ACCOUNT_INFO if exists;
+CREATE TABLE ACCOUNT_INFO(
+    ID int,
+    FIRST_NAME  varchar(50),
+    LAST_NAME  varchar(50),
+    PHONE_NUMBER  varchar(50),
+    EMAIL  varchar(50),
+    USERNAME  varchar(50) NOT NULL UNIQUE,
+    PASSWORD  varchar(50),
+    BALANCE  int DEFAULT 0
+);
+DROP SEQUENCE HIBERNATE_SEQUENCE if exists;
+CREATE SEQUENCE HIBERNATE_SEQUENCE START WITH 10 INCREMENT BY 1;
+DROP TABLE TRANSACTION if exists;
+CREATE TABLE TRANSACTION(
+    ID int,
+    USERNAME  varchar(50),
+    TRANSACTION_TYPE varchar(10),
+    PASSWORD  varchar(50),
+    CURRENT_AMOUNT int,
+    AMOUNT int,
+    BALANCE  int DEFAULT 0,
+    STATUS varchar(50),
+    DESCRIPTION varchar(100)
+);

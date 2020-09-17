@@ -1,0 +1,2 @@
+INSERT INTO ACCOUNT_INFO (ID,FIRST_NAME, LAST_NAME, PHONE_NUMBER,EMAIL,USERNAME,PASSWORD,BALANCE) VALUES (1,'John', 'Smith', '9876543210', 'john.smith@gmail.com','johnsmith','johnsmith',0);
+

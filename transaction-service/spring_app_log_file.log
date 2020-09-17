@@ -1,0 +1,455 @@
+"2020-09-17 12:30:18 - No active profile set, falling back to default profiles: default
+""2020-09-17 12:30:19 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-09-17 12:30:19 - Finished Spring Data repository scanning in 55ms. Found 2 JPA repository interfaces.
+""2020-09-17 12:30:19 - BeanFactory id=34f39b0d-e7ee-3f3b-92c2-b04587b6b2f2
+""2020-09-17 12:30:19 - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+""2020-09-17 12:30:19 - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+""2020-09-17 12:30:19 - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+""2020-09-17 12:30:20 - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-09-17 12:30:20 - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-09-17 12:30:20 - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-09-17 12:30:20 - Tomcat initialized with port(s): 8083 (http)
+""2020-09-17 12:30:20 - Starting service [Tomcat]
+""2020-09-17 12:30:20 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-09-17 12:30:20 - Initializing Spring embedded WebApplicationContext
+""2020-09-17 12:30:20 - Root WebApplicationContext: initialization completed in 1756 ms
+""2020-09-17 12:30:20 - No URLs will be polled as dynamic configuration sources.
+""2020-09-17 12:30:20 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-09-17 12:30:20 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4b960b5b
+""2020-09-17 12:30:20 - HikariPool-1 - Starting...
+""2020-09-17 12:30:20 - HikariPool-1 - Start completed.
+""2020-09-17 12:30:20 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/bankDB3'
+""2020-09-17 12:30:20 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2020-09-17 12:30:21 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-09-17 12:30:21 - Initializing ExecutorService 'taskScheduler'
+""2020-09-17 12:30:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-09-17 12:30:21 - HHH000412: Hibernate ORM core version 5.4.20.Final
+""2020-09-17 12:30:21 - No URLs will be polled as dynamic configuration sources.
+""2020-09-17 12:30:21 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-09-17 12:30:21 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2020-09-17 12:30:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-09-17 12:30:21 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-09-17 12:30:22 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-09-17 12:30:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-09-17 12:30:22 - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2020-09-17 12:30:22 - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+""2020-09-17 12:30:22 - Exposing 4 endpoint(s) beneath base path '/actuator'
+""2020-09-17 12:30:22 - Channel 'application-1.input' has 1 subscriber(s).
+""2020-09-17 12:30:22 - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+""2020-09-17 12:30:22 - Channel 'application-1.errorChannel' has 1 subscriber(s).
+""2020-09-17 12:30:22 - started bean '_org.springframework.integration.errorLogger'
+""2020-09-17 12:30:22 - Setting initial instance status as: STARTING
+""2020-09-17 12:30:23 - Initializing Eureka in region us-east-1
+""2020-09-17 12:30:23 - Using JSON encoding codec LegacyJacksonJson
+""2020-09-17 12:30:23 - Using JSON decoding codec LegacyJacksonJson
+""2020-09-17 12:30:23 - Using XML encoding codec XStreamXml
+""2020-09-17 12:30:23 - Using XML decoding codec XStreamXml
+""2020-09-17 12:30:23 - Resolving eureka endpoints via configuration
+""2020-09-17 12:30:23 - Disable delta property : false
+""2020-09-17 12:30:23 - Single vip registry refresh property : null
+""2020-09-17 12:30:23 - Force full registry fetch : false
+""2020-09-17 12:30:23 - Application is null : false
+""2020-09-17 12:30:23 - Registered Applications size is zero : true
+""2020-09-17 12:30:23 - Application version is -1: true
+""2020-09-17 12:30:23 - Getting all instance registry info from the eureka server
+""2020-09-17 12:30:24 - The response status is 200
+""2020-09-17 12:30:24 - Starting heartbeat executor: renew interval is: 30
+""2020-09-17 12:30:24 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+""2020-09-17 12:30:24 - Discovery Client initialized at timestamp 1600326024052 with initial instances count: 1
+""2020-09-17 12:30:24 - Registering application TRANSACTION-SERVICE with eureka with status UP
+""2020-09-17 12:30:24 - Saw local status change event StatusChangeEvent [timestamp=1600326024056, current=UP, previous=STARTING]
+""2020-09-17 12:30:24 - DiscoveryClient_TRANSACTION-SERVICE/DESKTOP-I33G9TK:transaction-service:8083: registering service...
+""2020-09-17 12:30:24 - Triggering deferred initialization of Spring Data repositories…
+""2020-09-17 12:30:24 - Spring Data repositories initialized!
+""2020-09-17 12:30:24 - AdminClientConfig values: 
+	bootstrap.servers = [localhost:9093]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+""2020-09-17 12:30:24 - Kafka version: 2.5.1
+""2020-09-17 12:30:24 - Kafka commitId: 0efa8fb0f4c73d92
+""2020-09-17 12:30:24 - Kafka startTimeMs: 1600326024770
+""2020-09-17 12:30:25 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:26 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:27 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:29 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:30 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:32 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:34 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:36 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:38 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:41 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:43 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:45 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:47 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:49 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:51 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:53 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:54 - [AdminClient clientId=adminclient-1] Metadata update failed
+"org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1600326054772) timed out at 1600326054773 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call.
+"2020-09-17 12:30:55 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:57 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:30:59 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:01 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:04 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:06 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:07 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:10 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:12 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:14 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:16 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:18 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:20 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:22 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:24 - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:24 - [AdminClient clientId=adminclient-1] Metadata update failed
+"org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1600326084773) timed out at 1600326084774 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment.
+"2020-09-17 12:31:24 - [AdminClient clientId=adminclient-1] Metadata update failed
+"org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1600326114774) timed out at 9223372036854775807 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited.
+"2020-09-17 12:31:24 - Failed to create consumer binding; retrying in 30 seconds
+"org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:319) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.doProvisionConsumerDestination(KafkaTopicProvisioner.java:204) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:170) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:78) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:408) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:90) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindConsumer(AbstractBinder.java:143) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.doBindConsumer(BindingService.java:169) [spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.bindConsumer(BindingService.java:126) [spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binding.AbstractBindableProxyFactory.createAndBindInputs(AbstractBindableProxyFactory.java:112) [spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binding.InputBindingLifecycle.doStartWithBindable(InputBindingLifecycle.java:58) [spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608) ~[na:1.8.0_162]
+	at org.springframework.cloud.stream.binding.AbstractBindingLifecycle.start(AbstractBindingLifecycle.java:57) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binding.InputBindingLifecycle.start(InputBindingLifecycle.java:34) [spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.oracle.bank.transactionservice.TransactionServiceApplication.main(TransactionServiceApplication.java:14) ~[classes/:na]
+Caused by: java.util.concurrent.TimeoutException: null
+	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.5.1.jar:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.5.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:355) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:329) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:306) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	... 28 common frames omitted
+"2020-09-17 12:31:24 - Tomcat started on port(s): 8083 (http) with context path ''
+""2020-09-17 12:31:24 - Updating port to 8083
+""2020-09-17 12:31:25 - Triggering deferred initialization of Spring Data repositories…
+""2020-09-17 12:31:25 - Spring Data repositories initialized!
+""2020-09-17 12:31:25 - Started TransactionServiceApplication in 67.53 seconds (JVM running for 68.208)
+""2020-09-17 12:31:54 - AdminClientConfig values: 
+	bootstrap.servers = [localhost:9093]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+""2020-09-17 12:31:54 - Kafka version: 2.5.1
+""2020-09-17 12:31:54 - Kafka commitId: 0efa8fb0f4c73d92
+""2020-09-17 12:31:54 - Kafka startTimeMs: 1600326114900
+""2020-09-17 12:31:55 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:57 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:58 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:31:59 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:00 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:02 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:05 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:07 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:09 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:11 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:13 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:15 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:17 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:19 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:21 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:23 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:24 - [AdminClient clientId=adminclient-2] Metadata update failed
+"org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1600326144901) timed out at 1600326144903 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call.
+"2020-09-17 12:32:25 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:27 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:29 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:31 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:33 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:35 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:37 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:39 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:41 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:44 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:46 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:48 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:50 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:52 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:54 - [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:32:54 - [AdminClient clientId=adminclient-2] Metadata update failed
+"org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1600326174903) timed out at 9223372036854775807 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited.
+"2020-09-17 12:32:54 - Failed to create consumer binding; retrying in 30 seconds
+"org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:319) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.doProvisionConsumerDestination(KafkaTopicProvisioner.java:204) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:170) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:78) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:408) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:90) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindConsumer(AbstractBinder.java:143) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleConsumerBinding$0(BindingService.java:194) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_162]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_162]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_162]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_162]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162]
+Caused by: java.util.concurrent.TimeoutException: null
+	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.5.1.jar:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.5.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:355) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:329) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:306) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	... 15 common frames omitted
+"2020-09-17 12:33:24 - AdminClientConfig values: 
+	bootstrap.servers = [localhost:9093]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+""2020-09-17 12:33:24 - Kafka version: 2.5.1
+""2020-09-17 12:33:24 - Kafka commitId: 0efa8fb0f4c73d92
+""2020-09-17 12:33:24 - Kafka startTimeMs: 1600326204923
+""2020-09-17 12:33:25 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:27 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:28 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:29 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:31 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:32 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:34 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:36 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:38 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:40 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:42 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:44 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:46 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:48 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:50 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:53 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:54 - [AdminClient clientId=adminclient-3] Metadata update failed
+"org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1600326234923) timed out at 1600326234924 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call.
+"2020-09-17 12:33:55 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:57 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:33:59 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:01 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:03 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:05 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:07 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:09 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:11 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:13 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:16 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:17 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:19 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:19 - Application shutdown requested.
+""2020-09-17 12:34:19 - Unregistering application TRANSACTION-SERVICE with eureka with status DOWN
+""2020-09-17 12:34:19 - Saw local status change event StatusChangeEvent [timestamp=1600326259847, current=DOWN, previous=UP]
+""2020-09-17 12:34:19 - DiscoveryClient_TRANSACTION-SERVICE/DESKTOP-I33G9TK:transaction-service:8083: registering service...
+""2020-09-17 12:34:19 - DiscoveryClient_TRANSACTION-SERVICE/DESKTOP-I33G9TK:transaction-service:8083 - registration status: 204
+""2020-09-17 12:34:19 - Stopping service [Tomcat]
+""2020-09-17 12:34:19 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+""2020-09-17 12:34:19 - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+""2020-09-17 12:34:19 - Channel 'application-1.errorChannel' has 0 subscriber(s).
+""2020-09-17 12:34:19 - stopped bean '_org.springframework.integration.errorLogger'
+""2020-09-17 12:34:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-09-17 12:34:19 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2020-09-17 12:34:19 - Shutting down ExecutorService 'taskScheduler'
+""2020-09-17 12:34:19 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-09-17 12:34:19 - Failed to create consumer binding; retrying in 30 seconds
+"org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:319) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.doProvisionConsumerDestination(KafkaTopicProvisioner.java:204) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:170) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:78) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:408) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:90) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindConsumer(AbstractBinder.java:143) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleConsumerBinding$0(BindingService.java:194) ~[spring-cloud-stream-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_162]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_162]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_162]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_162]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162]
+Caused by: java.util.concurrent.TimeoutException: null
+	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.5.1.jar:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.5.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:355) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:329) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:306) ~[spring-cloud-stream-binder-kafka-core-3.0.1.RELEASE.jar:3.0.1.RELEASE]
+	... 15 common frames omitted
+"2020-09-17 12:34:19 - Shutting down DiscoveryClient ...
+""2020-09-17 12:34:21 - [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+""2020-09-17 12:34:22 - Unregistering ...
+""2020-09-17 12:34:22 - DiscoveryClient_TRANSACTION-SERVICE/DESKTOP-I33G9TK:transaction-service:8083 - deregister  status: 200
+""2020-09-17 12:34:23 - Completed shut down of DiscoveryClient
+""2020-09-17 12:34:23 - HikariPool-1 - Shutdown initiated...
+""2020-09-17 12:34:23 - HikariPool-1 - Shutdown completed.
+"
