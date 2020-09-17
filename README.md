@@ -54,7 +54,6 @@ transactionType can be either CREDIT or DEBIT
 	"email":"HEllo@Worlf",
 	"lastName":"John",
 	"phoneNumber":"098923479237",
-	"password":"johnsmith",
 	"balance":0
 	
 	
