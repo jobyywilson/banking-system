@@ -25,14 +25,13 @@
 ## To initate a transaction
 
 ### Request
-`POST http://localhost:8080/account/startTransaction`
+`POST http://localhost:8080/transaction/startTransaction`
 
 
 
 	{
 		"transactionType":"CREDIT",
-		"amount":20,
-		"username":"johnsmith"
+		"amount":20
 	}
 
 
