@@ -25,7 +25,7 @@
 ## To initate a transaction
 
 ### Request
-`POST http://localhost:8080/transaction/startTransaction`
+`POST http://localhost:8080/account/startTransaction`
 
 
 
@@ -38,3 +38,26 @@
 
 
 transactionType can be either CREDIT or DEBIT
+
+
+## To get account balance
+
+### Request
+`GET http://localhost:8080/account/details`
+
+
+
+	{
+		
+	"username":"johnsmith",
+	"firstName":"dsds",
+	"email":"HEllo@Worlf",
+	"lastName":"John",
+	"phoneNumber":"098923479237",
+	"password":"johnsmith",
+	"balance":0
+	
+	
+	}
+
+
