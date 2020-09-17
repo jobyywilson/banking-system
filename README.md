@@ -29,11 +29,13 @@
 'POST http://localhost:8081/account/startTransaction'
 
 
-'{
-	"transactionType":"CREDIT",
-	"amount":20,
-	"username":"johnsmith"
-}'
+	{
+		"transactionType":"CREDIT",
+		"amount":20,
+		"username":"johnsmith"
+	}
+
+
 
 
 transactionType can be either CREDIT or DEBIT
