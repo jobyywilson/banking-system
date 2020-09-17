@@ -48,6 +48,18 @@ public class AccountService {
 		accountRepository.save(account);
 		
 	}
+	
+	public UserInfo getAccountDetails(Authentication authentication) {
+		Account account = accountRepository.findByUsername(authentication.getName());
+		UserInfo userInfo = new UserInfo();
+		userInfo.setFirstName(account.getFirstName());
+		userInfo.setBalance(account.getBalance());
+		userInfo.setLastName(account.getLastName());
+		userInfo.setPhoneNumber(account.getPhoneNumber());
+		userInfo.setEmail(account.getEmail());
+		userInfo.setUsername(account.getUsername());
+		return userInfo;
+	}
 	public boolean startTransaction(TransactionInfo transactionInfo,Authentication authentication) {
 		
 	
